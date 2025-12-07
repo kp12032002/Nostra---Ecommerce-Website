@@ -79,6 +79,18 @@
     body {
         background: lightblue;
     }
+
+    .filter__box h4 {
+        font-size: 17px;
+    }
+
+    .products__card img {
+        width: 100px;
+        height: 170px;
+        width: 140px;
+        height: 200px;
+        object-fit: cover;
+    }
 }
 
 /* -------------------------
