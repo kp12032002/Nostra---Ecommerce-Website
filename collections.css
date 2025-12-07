@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* filter */
+
+.collections {
+    display: flex;
+    margin: 1.5%;
+}
+
+.filter {
+    width: 22%;
+    border-right: 3px solid #4f98CA;
+
+}
+
+.filter label {
+    display: block;
+}
+
+.filter__box h4 {
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.filter__box label {
+    font-weight: 500;
+    font-size: small;
+    padding: 2px;
+}
+
+.products__container {
+    margin: 15px;
+    width: 100%;
+}
+
+.products__container .search input {
+    /* background-color: red; */
+    width: 95%;
+    padding: 10px;
+    border: 0.1px solid black;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.products__card {
+    background-color: rgb(232, 226, 226);
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.products__card img {
+    width: 200px;
+    height: 320px;
+    object-fit: cover;
+}

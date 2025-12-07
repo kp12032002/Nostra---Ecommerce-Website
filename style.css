@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -25,7 +25,7 @@ body {
     background-color: #4f98CA;
     color: black;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     padding: 1.5%;
     position: sticky;
@@ -168,42 +168,42 @@ body {
 }
 
 /* news letter */
-    .newsletter {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        font-size: small;
-        margin-top: 25px;
-    }
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: small;
+    margin-top: 25px;
+}
 
-    .newsletter input {
-        width: 60%;
-        border: 2px solid black;
-        padding: 10px;
-        font-size: medium;
-    }
+.newsletter input {
+    width: 60%;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: medium;
+}
 
-    .newsletter button {
-        background-color: red;
-        border: none;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        height: 40px;
-        font-weight: bold;
-        margin-top: 10px;
-    }
+.newsletter button {
+    background-color: red;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
 
-    .newsletter button:hover {
-        background-color: rgba(255, 0, 0, 0.756);
-    }
+.newsletter button:hover {
+    background-color: rgba(255, 0, 0, 0.756);
+}
 
-    /* .newsletter img {
+/* .newsletter img {
         width: 50px;
     } */
 
@@ -224,3 +224,29 @@ body {
     margin-right: 45px;
 }
 
+.arrivals__container {
+    padding: 1.5%;
+}
+
+.arrivals {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.arrivals__card img {
+    width: 120px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 3px;
+
+}
+
+.arrivals__card a {
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    display: block;
+}
