@@ -258,7 +258,7 @@ body {
 /* small mobile (max 480px) */
 @media (max-width:480px) {
     body {
-        background-color: red;
+        /* background-color: red; */
         font-size: 8px;
     }
 }
@@ -266,14 +266,15 @@ body {
 /* mobile (481px to 767px */
 @media (min-width:481px) and (max-width:767px) {
     body {
-        background-color: yellow;
+        /* background-color: yellow; */
+        /* already assigned */
     }
 }
 
 /* Tablet (768px to 991px) */
 @media (min-width:768px) and (max-width:991px) {
     body {
-        background-color: orange;
+        /* background-color: orange; */
         font-size: 16px;
     }
 
@@ -298,7 +299,7 @@ body {
 /* Laptop /small Desktop (992px to 1199px */
 @media (min-width:992px) and (max-width:2400px) {
     body {
-        background-color: green;
+        /* background-color: green; */
         font-size: 20px;
     }
 
