@@ -6,6 +6,7 @@
 body {
     font-family: "Montserrat", sans-serif;
     background-color: White;
+    font-size: 12px;
 }
 
 .offer {
@@ -49,6 +50,7 @@ body {
     padding-left: 10px;
     border-radius: 5px;
     border: 1px solid black;
+    display: none;
 }
 
 .navbar__menu a:hover {
@@ -79,6 +81,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 7px;
+    cursor: pointer;
 }
 
 .brands__logo__name img {
@@ -175,6 +178,7 @@ body {
     gap: 10px;
     font-size: small;
     margin-top: 25px;
+    padding: 1.5%;
 }
 
 .newsletter input {
@@ -237,11 +241,10 @@ body {
 }
 
 .arrivals__card img {
-    width: 120px;
-    height: 320px;
+    width: 60px;
+    height: 200px;
     object-fit: cover;
     border-radius: 3px;
-
 }
 
 .arrivals__card a {
@@ -252,3 +255,67 @@ body {
 
 /* media quiries */
 
+/* small mobile (max 480px) */
+@media (max-width:480px) {
+    body {
+        background-color: red;
+        font-size: 8px;
+    }
+}
+
+/* mobile (481px to 767px */
+@media (min-width:481px) and (max-width:767px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+/* Tablet (768px to 991px) */
+@media (min-width:768px) and (max-width:991px) {
+    body {
+        background-color: orange;
+        font-size: 16px;
+    }
+
+    .navbar__menu a {
+        display: block;
+    }
+
+    .navbar__menu img {
+        display: none;
+    }
+
+    .brands__logo__name img {
+        width: 60px;
+    }
+
+    .arrivals__card img {
+        width: 100px;
+        height: 240px;
+    }
+}
+
+/* Laptop /small Desktop (992px to 1199px */
+@media (min-width:992px) and (max-width:2400px) {
+    body {
+        background-color: green;
+        font-size: 20px;
+    }
+
+    .navbar__menu a {
+        display: block;
+    }
+
+    .navbar__menu img {
+        display: none;
+    }
+
+    .brands__logo__name img {
+        width: 100px;
+    }
+
+    .arrivals__card img {
+        width: 100%;
+        height: 500px;
+    }
+}
