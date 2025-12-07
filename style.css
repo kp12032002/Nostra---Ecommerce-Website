@@ -5,11 +5,11 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    background-color: #effffb;
+    background-color: White;
 }
 
 .offer {
-    background-color: #272727;
+    background-color: black;
     color: white;
     font-size: x-small;
     display: flex;
@@ -19,17 +19,46 @@ body {
     gap: 5%;
 }
 
+/* navbar */
+
 .navbar {
     background-color: #4f98CA;
     color: black;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     padding: 1.5%;
+    position: sticky;
+    top: 0;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar__menu a {
+    /* background-color: #458dbd; */
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.navbar__menu a:hover {
+    background-color: black;
+    color: #458dbd;
 }
 
 .navbar img {
     width: 20px;
+    cursor: pointer;
 }
 
 .brands {
@@ -90,7 +119,7 @@ body {
 }
 
 .info__2__container {
-    background-color: #e3e9e8;
+    background-color: #e9e9e9;
     flex-grow: 1;
     font-size: 8px;
     border-radius: 10px;
@@ -100,5 +129,98 @@ body {
 .info__2__container img {
     width: 25px;
     margin-bottom: 10px;
+}
+
+/* new arrivals */
+
+
+
+/* limited offer */
+
+.limited-offer {
+    background-color: #50D890;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 1.5%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.limited-offer__banner img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.limited-offer__desc button {
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+.limited-offer__desc button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* news letter */
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-size: small;
+        margin-top: 25px;
+    }
+
+    .newsletter input {
+        width: 60%;
+        border: 2px solid black;
+        padding: 10px;
+        font-size: medium;
+    }
+
+    .newsletter button {
+        background-color: red;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        height: 40px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .newsletter button:hover {
+        background-color: rgba(255, 0, 0, 0.756);
+    }
+
+    /* .newsletter img {
+        width: 50px;
+    } */
+
+/* footer */
+
+.footer {
+    background-color: #eeeeee;
+    color: black;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.footer__icons img {
+    width: 15px;
+    margin-right: 45px;
 }
 
