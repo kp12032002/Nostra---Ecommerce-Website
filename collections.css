@@ -85,13 +85,13 @@
     }
 
     .products__card img {
-        width: 80px;
-        height: 150px;
+        width: 90px;
+        height: 160px;
         object-fit: cover;
     }
 
     .products__container .search input {
-        width: 70%;
+        width: 75%;
     }
 }
 
