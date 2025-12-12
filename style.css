@@ -36,6 +36,7 @@ body {
     padding: 1.5%;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .navbar__menu {
@@ -183,6 +184,76 @@ body {
     margin-bottom: 10px;
 }
 
+/* most wanted */
+
+.most__wanted__container {
+    padding: 1.5%;
+}
+
+.most__wanted {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scroll-snap-type: x mandatory;
+    margin-top: 1%;
+}
+
+.most__wanted::-webkit-scrollbar {
+    display: none;
+}
+
+.sale__container {
+    position: relative;
+    min-width: 130px;
+    scroll-snap-align: start;
+    width: 100px;
+    object-fit: cover;
+}
+
+.sale__image {
+    width: 100%;
+    border-radius: 3px;
+    position: relative;
+    /* display: inline; */
+    object-fit: cover;
+    height: 100%;
+}
+
+.sale__container p {
+    position: absolute;
+    top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.heart_icon {
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    bottom: 0;
+    width: 20px;
+    margin: 15px;
+    display: none;
+}
+
+.red_heart {
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    margin: 10px;
+}
+
 /* limited offer */
 
 .limited-offer {
@@ -285,8 +356,15 @@ body {
     margin-top: 1%;
 }
 
+.arrivals__card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .arrivals__card img {
-    width: 60px;
+    width: 80%;
     height: 200px;
     object-fit: cover;
     border-radius: 3px;
@@ -296,6 +374,13 @@ body {
     text-decoration: none;
     font-weight: 600;
     display: block;
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    margin-bottom: 50%;
+    background-color: white;
+    width: 100%;
+    color: red;
 }
 
 /* media quiries */
@@ -348,7 +433,7 @@ body {
     }
 
     .arrivals__card img {
-        width: 100px;
+        width: 80%;
         height: 240px;
     }
 
@@ -385,7 +470,7 @@ body {
     }
 
     .arrivals__card img {
-        width: 100%;
+        width: 80%;
         height: 500px;
     }
 
