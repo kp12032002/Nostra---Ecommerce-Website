@@ -20,6 +20,11 @@ body {
     gap: 5%;
 }
 
+#closeOffer {
+    cursor: pointer;
+    padding: 5px;
+}
+
 /* navbar */
 
 .navbar {
@@ -62,6 +67,50 @@ body {
     width: 20px;
     cursor: pointer;
 }
+
+#sideNav {
+    background-color: #4f98CA;
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -50%;
+    z-index: 20;
+    transition: all;
+    transition-duration: 0.9s;
+}
+
+.close {
+    padding: 19px;
+    text-align: right;
+}
+
+#closeNav {
+    display: inline;
+    cursor: pointer;
+}
+
+.sideNavMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.sideNavMenu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+/* .sideBarMenu a:hover {
+    background-color: #4688b4;
+} */
 
 .brands {
     /* background-color: red; */

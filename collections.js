@@ -1,12 +1,3 @@
-// Selecting closeOffer
-
-let closeOffer = document.getElementById("closeOffer")
-let offer = document.querySelector(".offer")
-
-closeOffer.addEventListener("click", function(){
-    offer.style.display = "none"
-})
-
 // Selecting sideNav, menuIcon
 
 let sideNav = document.getElementById("sideNav")
