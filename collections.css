@@ -11,10 +11,10 @@
 }
 
 .filter {
-    width: 22%;
+    width: 30%;
     border-right: 3px solid #4f98CA;
-    padding-right: 15px;
-    padding-right: 10%;
+    /* padding-right: 15px; */
+    /* padding-right: 10%; */
 }
 
 .filter label {

@@ -126,7 +126,7 @@ body {
 .hero__desc {
     position: absolute;
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 0, 0);
+    background-color: #e9e9e9;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10%;
